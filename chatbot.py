@@ -5,7 +5,7 @@ import os
 
 st.title("CHATBOT")
 
-API_KEY =os.getenv("OPENROUTER_KEY")
+API_KEY ="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"
 
 if "chat" not in st.session_state:
     st.session_state.chat = []
